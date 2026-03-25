@@ -1,0 +1,95 @@
+[
+  {
+    "page": "https://example.com/",
+    "title": "Example Domain",
+    "epics": [
+      {
+        "summary": "Improve User Onboarding Experience",
+        "description": "Currently, the onboarding process is cumbersome and requires users to complete multiple steps. This Epic aims to streamline the onboarding experience, leading to increased user engagement and retention.",
+        "requirements": [
+          "User can complete onboarding in 3 steps.",
+          "Onboarding process should be visually appealing and intuitive."
+        ],
+        "scope": "Redesign and improve the initial user experience for new users.",
+        "dependencies": [
+          "None"
+        ],
+        "risks": [
+          "Potential for user frustration if the redesign is not well-executed.",
+          "Time-consuming development process."
+        ],
+        "acceptance_criteria": [
+          "Users can complete onboarding in 3 steps.",
+          "Onboarding process is intuitive and visually appealing.",
+          "User satisfaction score increases by 10% after onboarding."
+        ],
+        "user_stories": [
+          {
+            "title": "As a new user, I want to be guided through the initial setup process with clear instructions and visual cues so that I can quickly get started.",
+            "story": "As a new user, I want to be guided through the initial setup process with clear instructions and visual cues so that I can quickly get started.  I should be able to easily navigate through the steps and understand what each one does.  I should be able to easily complete the onboarding process without getting stuck.",
+            "description": "This story focuses on the initial setup process. It emphasizes clear instructions and visual cues to guide the user through the onboarding journey.  It should be simple and easy to understand.",
+            "acceptance_criteria": [
+              "User can successfully complete the onboarding process in 3 steps.",
+              "The onboarding process is visually appealing and intuitive.",
+              "The user can easily understand each step and its purpose."
+            ]
+          },
+          {
+            "title": "As a new user, I want to receive a welcome message and a brief overview of the platform's key features so that I feel welcomed and understand the value proposition.",
+            "story": "As a new user, I want to receive a welcome message and a brief overview of the platform's key features so that I feel welcomed and understand the value proposition.  The welcome message should be personalized and engaging.  The overview should highlight the most important features.",
+            "description": "This story focuses on the initial welcome experience. It aims to create a positive first impression and communicate the platform's value proposition.",
+            "acceptance_criteria": [
+              "User receives a welcome message.",
+              "User receives a brief overview of key features.",
+              "The welcome message is personalized."
+            ]
+          }
+        ]
+      },
+      {
+        "summary": "Enhance Search Functionality",
+        "description": "The current search functionality is limited and often returns irrelevant results. This Epic will improve the search experience, allowing users to quickly and accurately find the information they need.",
+        "requirements": [
+          "Search results should be relevant to the user's query.",
+          "Search should support filtering and sorting.",
+          "Improve search speed and accuracy."
+        ],
+        "scope": "Redesign and improve the search engine and its integration with the platform.",
+        "dependencies": [
+          "None"
+        ],
+        "risks": [
+          "Potential for search results to be inaccurate or incomplete.",
+          "Time-consuming to implement significant changes."
+        ],
+        "acceptance_criteria": [
+          "Search results are relevant to the user's query.",
+          "Search results are displayed in a clear and organized manner.",
+          "Search speed is improved by 20%."
+        ],
+        "user_stories": [
+          {
+            "title": "As a user, I want to be able to search for products by keyword so that I can quickly find what I'm looking for.",
+            "story": "As a user, I want to be able to search for products by keyword so that I can quickly find what I'm looking for.  I should be able to use keywords, filters, and sorting options to refine my search.",
+            "description": "This story focuses on the core search functionality. It emphasizes the ability to quickly and accurately find products using keywords and filters.",
+            "acceptance_criteria": [
+              "Users can successfully search for products using keywords.",
+              "Users can use filters to refine their search.",
+              "Search results are displayed in a clear and organized manner."
+            ]
+          },
+          {
+            "title": "As a user, I want to receive suggestions for search terms as I type so that I can quickly find relevant results.",
+            "story": "As a user, I want to receive suggestions for search terms as I type so that I can quickly find relevant results.  The suggestions should be relevant to my query and improve my search experience.",
+            "description": "This story focuses on improving the user experience through suggestions. It aims to make the search process more efficient and intuitive.",
+            "acceptance_criteria": [
+              "Suggestions are relevant to the user's query.",
+              "Suggestions are presented in a timely manner.",
+              "The suggestions improve the search experience."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
